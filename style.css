@@ -1,3 +1,25 @@
 *{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+#homepage{
+    font-size: 25px;
+}
+
+.sidebar{
+    width: 15vw;
+    min-height: 100vh;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+.content{
+    margin: 5px;
+    width: 85vw;
 }
